@@ -9,9 +9,6 @@
 
 Aprender a aplicar o padrão DAO.
 
-## ⚠️ Aviso
-> Status: Em andamento...
-
 ## 🏆 Agradecimentos
 
 [Nélio Alves](https://www.udemy.com/course/java-curso-completo/)
