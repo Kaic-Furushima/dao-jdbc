@@ -7,10 +7,7 @@ import model.entities.Seller;
 public class Program {
     public static void main(String[] args) {
         SellerDao sellerDao = DaoFactory.createSellerDao();
-        Seller seller = sellerDao.findById(1);
-        seller.setName("Martha Wayne");
-        sellerDao.update(seller);
-
-
+        int id = 7;
+        sellerDao.deleteById(id);
     }
 }
