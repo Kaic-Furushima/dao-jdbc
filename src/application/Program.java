@@ -10,8 +10,7 @@ import java.util.List;
 public class Program {
     public static void main(String[] args) {
         SellerDao sellerDao = DaoFactory.createSellerDao();
-        Department department = new Department(2, null);
-        List<Seller> list = sellerDao.findByDepartment(department);
+        List<Seller> list = sellerDao.findAll();
         for(Seller obj : list){
             System.out.println(obj);
         }
