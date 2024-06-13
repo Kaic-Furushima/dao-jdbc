@@ -5,6 +5,10 @@
 - Java
 - MySQL
 
+### ☕ Java Libraries
+
+- MySQL Connector J 8.4.0
+
 ## ✨ Motivação
 
 Aprender a aplicar o padrão DAO.
